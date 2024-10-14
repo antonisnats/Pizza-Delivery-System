@@ -1,4 +1,4 @@
-Pizza Ordering System Simulation
+Pizza Ordering System
 
 Overview
 
@@ -12,3 +12,8 @@ Manages available telephone operators, cooks, ovens, and delivery personnel.
 Uses mutexes and condition variables for resource management.
 Tracks statistics like total revenue, number of pizzas sold by type, and delivery times.
 Supports random variations in order preparation times, baking times, and delivery times.
+
+
+To run the program: ./a.out <number_of_customers> <random_seed>
+Example: ./a.out 10 42
+
